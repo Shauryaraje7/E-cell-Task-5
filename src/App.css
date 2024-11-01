@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+body{
+  padding: 9rem;
+  scroll-behavior: smooth;
+}
+@media (max-width: 768px) {
+  body{
+    padding: 1rem;
+  }
+}
